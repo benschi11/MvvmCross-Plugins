@@ -5,7 +5,7 @@
     <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4C7378A4-F173-43FD-B24F-9F54D6496DC8}</ProjectGuid>
+    <ProjectGuid>{A3D85971-CD3B-4A87-9492-D5DC58DF3F33}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MvvmCross.Plugins.Sqlite</RootNamespace>
