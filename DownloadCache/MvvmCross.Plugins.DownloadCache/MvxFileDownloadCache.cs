@@ -5,10 +5,10 @@
 //
 // Project Lead - Stuart Lodge, @slodge, me@slodge.com
 
-using Cirrious.CrossCore;
-using Cirrious.CrossCore.Core;
-using Cirrious.CrossCore.Exceptions;
-using Cirrious.CrossCore.Platform;
+using MvvmCross.Platform;
+using MvvmCross.Platform.Core;
+using MvvmCross.Platform.Exceptions;
+using MvvmCross.Platform.Platform;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -130,7 +130,7 @@ namespace MvvmCross.Plugins.DownloadCache
             var cachedFiles = new Dictionary<string, Entry>();
             foreach (var e in _entriesByHttpUrl)
             {
-                cachedFiles[e.Value.DownloadedPath] = e.Value;
+                cachedFiles[store.NativePath(e.Value.DownloadedPath)] = e.Value;
             }
 
             var toDelete = new List<string>();
