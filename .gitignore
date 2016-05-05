@@ -166,3 +166,4 @@ nuget.exe
 
 ## Android Auto-generated files
 Resource.designer.cs
+project.lock.json
